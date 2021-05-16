@@ -1,0 +1,19 @@
+.background{
+    background-image: url(../img/8a42d27929c6d52e26f306f9bc82ead6.jpg);
+}
+.icon1{
+      position: relative;
+      left: 35%;
+      color: #778899;
+  }
+.icon1:hover{
+    color: #546270;
+  }
+
+.login{
+    position: relative;
+    left: 18px;
+}
+
+
+  
