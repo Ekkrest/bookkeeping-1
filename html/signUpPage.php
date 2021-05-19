@@ -9,7 +9,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="../js/JavaScript.js"></script>
         <meta charset="utf-8">
-        <title>login_page</title>
+        <title>Sign up</title>
       </head>
 
       <body class="background">
@@ -17,20 +17,35 @@
         <div class="card" style="width: 22rem; text-align: center; margin:auto; position: relative; top: 50px;">
             <img src="../img/09160089cbb14941dd08d0f2be9b6a47.jpg" class="card-img-top" alt="error">
             <div class="card-body">
-                <form>
+                <form method="POST" action = "loginPage.php">
                     <h3 style="color: #546270;">Sign up</h3><br/>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        <input type="email" class="form-control" name = "email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                       </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Username">
+                        <input type="text" class="form-control" name = "username" id="formGroupExampleInput" placeholder="Username">
                       </div>
                     <div class="form-group">
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      <input type="password" class="form-control" name = "password" id="exampleInputPassword1" placeholder="Password">
                     </div>
-                    <button type="button" class="btn btn-primary " style="background-color: #778899; border-color:#778899;" onclick="changeToBookkeeping()">註冊</button>
+                    <button type="submit" class="btn btn-primary " style="background-color: #778899; border-color:#778899;" onclick="changeToLogin()">註冊</button>
                   </form>
             </div>
           </div>
+          <?php
+            header('Content-Type: text/html');
+            $db_host = "localhost";
+            $db_username = "root";
+            $db_password = "rootroot";
+            $db_name = "final_project";
+            $db_link = @mysqli_connect($db_host, $db_username, $db_password, $db_name);
+            mysqli_set_charset($db_link, 'utf8');
+            
+            $email = $_POST["email"];
+            $username = $_POST["username"];
+            $password = $_POST["password"];
+
+            $sql = "INSERT INTO `userlogin` (`ID`, `UserName`, `UserPassword`, `UserEmail`, `UserApproved`) VALUES (\'NULL\', \'$usernamer\', \'$password\', \'$email\', \'N\')";
+          ?>
       </body>
 </html>

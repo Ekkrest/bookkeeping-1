@@ -1,6 +1,11 @@
 function changeToSignUp(){
-    window.location.href = "../html/signUpPage.html"; 
+    window.location.href = "../html/signUpPage.php"; 
 }
+
 function changeToBookkeeping(){
-    window.location.href = "../html/bookkeeping.html"; 
+    window.location.href = "../html/bookkeeping.php"; 
+}
+
+function changeToLogin(){
+    window.location.href = "../html/loginPage.php";    
 }
