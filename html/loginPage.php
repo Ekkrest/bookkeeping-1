@@ -20,19 +20,19 @@
                 <form>
                     <h3 style="color: #546270;">Log in</h3><br/>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Username">
-                      </div>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Username">
+                    </div>
                     <div class="form-group">
                       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
+                        
                     <button type="button" class="btn btn-primary login" style="background-color: #778899; border-color:#778899" onclick="changeToBookkeeping()">登入</button>
                     
                     <svg type="button" xmlns="http://www.w3.org/2000/svg" width="30" height="30"  fill="currentColor" class="bi bi-plus-circle-fill icon1" viewBox="0 0 16 16" onclick="changeToSignUp()">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
                     </svg>
                     
-                  </form>
-                  
+                  </form>                
             </div>
           </div>
       </body>
