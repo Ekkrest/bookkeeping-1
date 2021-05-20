@@ -9,6 +9,7 @@
         <meta charset="utf-8">
         <title>temp</title>
         <script>
+<<<<<<< HEAD
             document.addEventListener('DOMContentLoaded',changeToLogin())
         </script>
       </head>
@@ -30,3 +31,15 @@
 
     </body>
 </html>
+=======
+        document.addEventListener('DOMContentLoaded',changeToLogin())
+        </script>
+      </head>
+
+      <body >
+       gg
+       
+      </body>
+</html>
+
+>>>>>>> cat/master
