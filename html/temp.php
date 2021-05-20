@@ -9,6 +9,29 @@
         <meta charset="utf-8">
         <title>temp</title>
         <script>
+<<<<<<< HEAD
+            document.addEventListener('DOMContentLoaded',changeToLogin())
+        </script>
+      </head>
+
+    <body >
+      <?php		
+	    $db_link= @mysqli_connect("localhost", "root", "rootroot", "final_project");
+
+	    $email = $_POST["email"];
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+			
+	    $sql = "INSERT INTO userlogin (UserName, UserPassword, UserEmail, UserApproved) VALUES ('$username','$password','$email','N')";
+	    mysqli_query($db_link, $sql);
+			
+	    mysqli_close($db_link);
+        ?>
+        註冊成功!!!
+
+    </body>
+</html>
+=======
         document.addEventListener('DOMContentLoaded',changeToLogin())
         </script>
       </head>
@@ -19,3 +42,4 @@
       </body>
 </html>
 
+>>>>>>> cat/master
