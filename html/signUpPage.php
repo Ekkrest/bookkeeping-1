@@ -9,11 +9,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="../js/JavaScript.js"></script>
         <meta charset="utf-8">
-<<<<<<< HEAD
-        <title>Sign_up</title>
-=======
         <title>Sign up</title>
->>>>>>> 38e9af9f7ad898d1af079d97f65f2d3106f8057d
       </head>
 
       <body class="background">
@@ -21,11 +17,7 @@
         <div class="card" style="width: 22rem; text-align: center; margin:auto; position: relative; top: 50px;">
             <img src="../img/09160089cbb14941dd08d0f2be9b6a47.jpg" class="card-img-top" alt="error">
             <div class="card-body">
-<<<<<<< HEAD
-                <form action="../html/temp.php">
-=======
-                <form method="POST" action = "loginPage.php">
->>>>>>> 38e9af9f7ad898d1af079d97f65f2d3106f8057d
+                <form method="POST" action = "../html/temp.php">
                     <h3 style="color: #546270;">Sign up</h3><br/>
                     <div class="form-group">
                         <input type="email" class="form-control" name = "email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
@@ -36,11 +28,7 @@
                     <div class="form-group">
                       <input type="password" class="form-control" name = "password" id="exampleInputPassword1" placeholder="Password">
                     </div>
-<<<<<<< HEAD
                     <button type="button" class="btn btn-primary " style="background-color: #778899; border-color:#778899;">註冊</button>
-=======
-                    <button type="submit" class="btn btn-primary " style="background-color: #778899; border-color:#778899;" onclick="changeToLogin()">註冊</button>
->>>>>>> 38e9af9f7ad898d1af079d97f65f2d3106f8057d
                   </form>
             </div>
           </div>
