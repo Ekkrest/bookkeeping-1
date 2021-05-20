@@ -1,21 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-    themeSystem: 'bootstrap',
-    
-    dateClick: function(info) {
-      
+  var calendarEl = document.getElementById('calendar');
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+  themeSystem: 'bootstrap',
 
-
-
-      }
-    
-
-
-
-
-
-
-    });
-    calendar.render();
   });
+  calendar.render();
+});
