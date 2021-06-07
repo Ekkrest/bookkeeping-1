@@ -1,19 +1,19 @@
 function changeToSignUp(){
-    window.location.href = "../html/signUpPage.php"; 
+    window.location.href = "../webpage/signUpPage.php"; 
 }
 
 function changeToBookkeeping(){
-    window.location.href = "../html/bookkeeping.php"; 
+    window.location.href = "../webpage/bookkeeping.php"; 
 }
 function changeToLogin(){
-    setTimeout(()=> window.location.href = "../html/loginPage.php", 2000);
+    setTimeout(()=> window.location.href = "../webpage/loginPage.php", 2000);
 }
 function changeToTemp(){
-    window.location.href = "../html/temp.php"; 
+    window.location.href = "../webpage/temp.php"; 
 }
 function changeToBookkeeping1(){
-    setTimeout(()=> window.location.href = "../html/bookkeeping.php", 2000);
+    setTimeout(()=> window.location.href = "../webpage/bookkeeping.php", 2000);
 }
 function changeToTemp1(){
-    window.location.href = "../html/loginToBookkeeping.php";
+    window.location.href = "../webpage/loginToBookkeeping.php";
 }
