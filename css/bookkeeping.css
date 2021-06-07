@@ -1,9 +1,25 @@
 #calendar{
     width: 50%;
     position: relative;
-    left: 50px;
+    left: 2%;
     top: 50px;
+    float: left;
 }
+#setForm{
+    width: 20%;
+    position:relative;
+    height:50%;
+    left: 4%;
+    top:50px;
+    float:left;
+}
+#submit{
+    position: relative;
+    top: 60%;
+    left: 37%;
+   
+}
+
 .fc-toolbar-title{
     color:#778899;
 }
