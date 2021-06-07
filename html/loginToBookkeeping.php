@@ -19,10 +19,10 @@
       header("Content-Type: text/html; charset=utf-8");
       ini_set('display_errors','off');
       $db_host = "localhost";
-      $link= @mysqli_connect($db_host, "root", "rootroot", "final_project");
+      $link = @mysqli_connect($db_host, "root", "rootroot", "final_project");
       mysqli_set_charset($link, 'utf8');
       if($link) {
-        $select=@mysqli_select_db($link, "final_project");
+        $select = @mysqli_select_db($link, "final_project");
         if($select){
           if(isset($_POST["submit"])){
 
