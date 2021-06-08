@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <title>temp-1</title>
     </head>
-
-    <body >
+    <body>
     <?php
       require_once("setting.inc");
       session_start();
@@ -24,7 +23,7 @@
 
             if($username==""||$password==""){
               echo"<script>"."window.alert"."("."\""."請填寫正確的資訊！"."\"".")".";"."</script>";
-              header("Refresh:1;url=loginPage.html");
+              header("Refresh:1;url=loginPage.php");
               exit;
             }
             $str= "SELECT *\n". "FROM userlogin\n". "WHERE userlogin.UserName = \"$username\"";
@@ -40,7 +39,7 @@
             }
             else{  
               echo"<script>"."window.alert"."("."\""."登入失敗，請重新登入！"."\"".")".";"."</script>";
-              header("Refresh:1;url=loginPage.html");
+              header("Refresh:1;url=loginPage.php");
             }
           }
         }
